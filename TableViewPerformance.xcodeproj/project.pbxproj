@@ -97,6 +97,7 @@
 		F70087B92194319C0031AC63 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DYS;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "丁玉松";
 				TargetAttributes = {
