@@ -1,0 +1,16 @@
+PODS:
+  - KMCGeigerCounter (0.3.0)
+
+DEPENDENCIES:
+  - KMCGeigerCounter
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - KMCGeigerCounter
+
+SPEC CHECKSUMS:
+  KMCGeigerCounter: a06cfeed4a96e8f9a49028abb3ba7e53604d3219
+
+PODFILE CHECKSUM: 2bc876368afe2de2fcd17db1167e44c3e31f8bf7
+
+COCOAPODS: 1.5.3

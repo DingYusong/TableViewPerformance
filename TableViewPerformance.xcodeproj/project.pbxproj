@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9113C77F94D06F983F5CA68 /* libPods-TableViewPerformance.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F8ABDF9B3116FA453BA27D /* libPods-TableViewPerformance.a */; };
 		F70087C62194319C0031AC63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F70087C52194319C0031AC63 /* AppDelegate.m */; };
 		F70087C92194319C0031AC63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F70087C82194319C0031AC63 /* ViewController.m */; };
 		F70087CC2194319C0031AC63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70087CA2194319C0031AC63 /* Main.storyboard */; };
 		F70087CE2194319F0031AC63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70087CD2194319F0031AC63 /* Assets.xcassets */; };
 		F70087D12194319F0031AC63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70087CF2194319F0031AC63 /* LaunchScreen.storyboard */; };
 		F70087D42194319F0031AC63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F70087D32194319F0031AC63 /* main.m */; };
+		F70087E0219531690031AC63 /* DYSDemo01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F70087DE219531690031AC63 /* DYSDemo01ViewController.m */; };
+		F70087E1219531690031AC63 /* DYSDemo01ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F70087DF219531690031AC63 /* DYSDemo01ViewController.xib */; };
+		F70087E4219532720031AC63 /* DYSDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F70087E3219532720031AC63 /* DYSDataSource.m */; };
+		F70087E8219534430031AC63 /* DYSDemo01TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F70087E6219534420031AC63 /* DYSDemo01TableViewCell.m */; };
+		F70087E9219534430031AC63 /* DYSDemo01TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F70087E7219534430031AC63 /* DYSDemo01TableViewCell.xib */; };
+		F7768F522195627E00F912F1 /* DYSDemo02ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7768F502195627E00F912F1 /* DYSDemo02ViewController.m */; };
+		F7768F532195627E00F912F1 /* DYSDemo02ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7768F512195627E00F912F1 /* DYSDemo02ViewController.xib */; };
+		F7768F572195634500F912F1 /* DYSDemo02TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7768F552195634500F912F1 /* DYSDemo02TableViewCell.m */; };
+		F7768F582195634500F912F1 /* DYSDemo02TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7768F562195634500F912F1 /* DYSDemo02TableViewCell.xib */; };
+		F7768F5E21956AD000F912F1 /* DYSDemo03ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7768F5C21956AD000F912F1 /* DYSDemo03ViewController.m */; };
+		F7768F5F21956AD000F912F1 /* DYSDemo03ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7768F5D21956AD000F912F1 /* DYSDemo03ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06F8ABDF9B3116FA453BA27D /* libPods-TableViewPerformance.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableViewPerformance.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7DA017E3EA7F56493F57F3 /* Pods-TableViewPerformance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewPerformance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewPerformance/Pods-TableViewPerformance.debug.xcconfig"; sourceTree = "<group>"; };
+		AB9E63FCB0AB61371243C275 /* Pods-TableViewPerformance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewPerformance.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewPerformance/Pods-TableViewPerformance.release.xcconfig"; sourceTree = "<group>"; };
 		F70087C12194319C0031AC63 /* TableViewPerformance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewPerformance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F70087C42194319C0031AC63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F70087C52194319C0031AC63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +41,24 @@
 		F70087D02194319F0031AC63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F70087D22194319F0031AC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F70087D32194319F0031AC63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F70087DD219531690031AC63 /* DYSDemo01ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo01ViewController.h; sourceTree = "<group>"; };
+		F70087DE219531690031AC63 /* DYSDemo01ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo01ViewController.m; sourceTree = "<group>"; };
+		F70087DF219531690031AC63 /* DYSDemo01ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo01ViewController.xib; sourceTree = "<group>"; };
+		F70087E2219532720031AC63 /* DYSDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDataSource.h; sourceTree = "<group>"; };
+		F70087E3219532720031AC63 /* DYSDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDataSource.m; sourceTree = "<group>"; };
+		F70087E5219534420031AC63 /* DYSDemo01TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo01TableViewCell.h; sourceTree = "<group>"; };
+		F70087E6219534420031AC63 /* DYSDemo01TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo01TableViewCell.m; sourceTree = "<group>"; };
+		F70087E7219534430031AC63 /* DYSDemo01TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo01TableViewCell.xib; sourceTree = "<group>"; };
+		F7768F4E2195514600F912F1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F7768F4F2195627E00F912F1 /* DYSDemo02ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo02ViewController.h; sourceTree = "<group>"; };
+		F7768F502195627E00F912F1 /* DYSDemo02ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo02ViewController.m; sourceTree = "<group>"; };
+		F7768F512195627E00F912F1 /* DYSDemo02ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo02ViewController.xib; sourceTree = "<group>"; };
+		F7768F542195634500F912F1 /* DYSDemo02TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo02TableViewCell.h; sourceTree = "<group>"; };
+		F7768F552195634500F912F1 /* DYSDemo02TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo02TableViewCell.m; sourceTree = "<group>"; };
+		F7768F562195634500F912F1 /* DYSDemo02TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo02TableViewCell.xib; sourceTree = "<group>"; };
+		F7768F5B21956AD000F912F1 /* DYSDemo03ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo03ViewController.h; sourceTree = "<group>"; };
+		F7768F5C21956AD000F912F1 /* DYSDemo03ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo03ViewController.m; sourceTree = "<group>"; };
+		F7768F5D21956AD000F912F1 /* DYSDemo03ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo03ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +66,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9113C77F94D06F983F5CA68 /* libPods-TableViewPerformance.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		566B2187DBB9D366879944CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06F8ABDF9B3116FA453BA27D /* libPods-TableViewPerformance.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF80D15CADC15D0B65121312 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B7DA017E3EA7F56493F57F3 /* Pods-TableViewPerformance.debug.xcconfig */,
+				AB9E63FCB0AB61371243C275 /* Pods-TableViewPerformance.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F70087B82194319B0031AC63 = {
 			isa = PBXGroup;
 			children = (
 				F70087C32194319C0031AC63 /* TableViewPerformance */,
 				F70087C22194319C0031AC63 /* Products */,
+				AF80D15CADC15D0B65121312 /* Pods */,
+				566B2187DBB9D366879944CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,13 +115,55 @@
 				F70087C52194319C0031AC63 /* AppDelegate.m */,
 				F70087C72194319C0031AC63 /* ViewController.h */,
 				F70087C82194319C0031AC63 /* ViewController.m */,
+				F70087E2219532720031AC63 /* DYSDataSource.h */,
+				F70087E3219532720031AC63 /* DYSDataSource.m */,
+				F7768F6021956B4300F912F1 /* demo03 */,
+				F7768F59219566C300F912F1 /* demo01 */,
+				F7768F5A219566D100F912F1 /* demo02 */,
 				F70087CA2194319C0031AC63 /* Main.storyboard */,
 				F70087CD2194319F0031AC63 /* Assets.xcassets */,
 				F70087CF2194319F0031AC63 /* LaunchScreen.storyboard */,
 				F70087D22194319F0031AC63 /* Info.plist */,
 				F70087D32194319F0031AC63 /* main.m */,
+				F7768F4E2195514600F912F1 /* PrefixHeader.pch */,
 			);
 			path = TableViewPerformance;
+			sourceTree = "<group>";
+		};
+		F7768F59219566C300F912F1 /* demo01 */ = {
+			isa = PBXGroup;
+			children = (
+				F70087DD219531690031AC63 /* DYSDemo01ViewController.h */,
+				F70087DE219531690031AC63 /* DYSDemo01ViewController.m */,
+				F70087DF219531690031AC63 /* DYSDemo01ViewController.xib */,
+				F70087E5219534420031AC63 /* DYSDemo01TableViewCell.h */,
+				F70087E6219534420031AC63 /* DYSDemo01TableViewCell.m */,
+				F70087E7219534430031AC63 /* DYSDemo01TableViewCell.xib */,
+			);
+			path = demo01;
+			sourceTree = "<group>";
+		};
+		F7768F5A219566D100F912F1 /* demo02 */ = {
+			isa = PBXGroup;
+			children = (
+				F7768F4F2195627E00F912F1 /* DYSDemo02ViewController.h */,
+				F7768F502195627E00F912F1 /* DYSDemo02ViewController.m */,
+				F7768F512195627E00F912F1 /* DYSDemo02ViewController.xib */,
+				F7768F542195634500F912F1 /* DYSDemo02TableViewCell.h */,
+				F7768F552195634500F912F1 /* DYSDemo02TableViewCell.m */,
+				F7768F562195634500F912F1 /* DYSDemo02TableViewCell.xib */,
+			);
+			path = demo02;
+			sourceTree = "<group>";
+		};
+		F7768F6021956B4300F912F1 /* demo03 */ = {
+			isa = PBXGroup;
+			children = (
+				F7768F5B21956AD000F912F1 /* DYSDemo03ViewController.h */,
+				F7768F5C21956AD000F912F1 /* DYSDemo03ViewController.m */,
+				F7768F5D21956AD000F912F1 /* DYSDemo03ViewController.xib */,
+			);
+			path = demo03;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F70087D72194319F0031AC63 /* Build configuration list for PBXNativeTarget "TableViewPerformance" */;
 			buildPhases = (
+				A1D7820976912697DAA24E61 /* [CP] Check Pods Manifest.lock */,
 				F70087BD2194319C0031AC63 /* Sources */,
 				F70087BE2194319C0031AC63 /* Frameworks */,
 				F70087BF2194319C0031AC63 /* Resources */,
+				492D5B13741A47FC9D89AEA6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,21 +227,71 @@
 			buildActionMask = 2147483647;
 			files = (
 				F70087D12194319F0031AC63 /* LaunchScreen.storyboard in Resources */,
+				F70087E1219531690031AC63 /* DYSDemo01ViewController.xib in Resources */,
 				F70087CE2194319F0031AC63 /* Assets.xcassets in Resources */,
+				F7768F5F21956AD000F912F1 /* DYSDemo03ViewController.xib in Resources */,
+				F70087E9219534430031AC63 /* DYSDemo01TableViewCell.xib in Resources */,
+				F7768F532195627E00F912F1 /* DYSDemo02ViewController.xib in Resources */,
+				F7768F582195634500F912F1 /* DYSDemo02TableViewCell.xib in Resources */,
 				F70087CC2194319C0031AC63 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		492D5B13741A47FC9D89AEA6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TableViewPerformance/Pods-TableViewPerformance-resources.sh",
+				"${PODS_ROOT}/KMCGeigerCounter/KMCGeigerCounter/KMCGeigerCounterTick.aiff",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KMCGeigerCounterTick.aiff",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewPerformance/Pods-TableViewPerformance-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1D7820976912697DAA24E61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TableViewPerformance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F70087BD2194319C0031AC63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F70087E4219532720031AC63 /* DYSDataSource.m in Sources */,
 				F70087C92194319C0031AC63 /* ViewController.m in Sources */,
+				F70087E8219534430031AC63 /* DYSDemo01TableViewCell.m in Sources */,
+				F70087E0219531690031AC63 /* DYSDemo01ViewController.m in Sources */,
+				F7768F522195627E00F912F1 /* DYSDemo02ViewController.m in Sources */,
+				F7768F572195634500F912F1 /* DYSDemo02TableViewCell.m in Sources */,
 				F70087D42194319F0031AC63 /* main.m in Sources */,
 				F70087C62194319C0031AC63 /* AppDelegate.m in Sources */,
+				F7768F5E21956AD000F912F1 /* DYSDemo03ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -274,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,9 +431,13 @@
 		};
 		F70087D82194319F0031AC63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B7DA017E3EA7F56493F57F3 /* Pods-TableViewPerformance.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = N38P9768D4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TableViewPerformance/PrefixHeader.pch;
 				INFOPLIST_FILE = TableViewPerformance/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -294,15 +445,20 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gbanker.TableViewPerformance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Wildcard;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		F70087D92194319F0031AC63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB9E63FCB0AB61371243C275 /* Pods-TableViewPerformance.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TableViewPerformance/PrefixHeader.pch;
 				INFOPLIST_FILE = TableViewPerformance/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,6 +466,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gbanker.TableViewPerformance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  TableViewPerformance
+//
+//  Created by 丁玉松 on 2018/11/9.
+//  Copyright © 2018 丁玉松. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <Foundation/Foundation.h>
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+static NSInteger Demo01StrCount = 100;
+static NSInteger Demo01ImgCount = 100;
+
+
+#endif /* PrefixHeader_pch */

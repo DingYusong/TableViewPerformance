@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1407B8A74B78617C982D614286DEFE3C /* KMCGeigerCounter.h in Headers */ = {isa = PBXBuildFile; fileRef = 39DCF54EFABB302FE3699A7121ED97AB /* KMCGeigerCounter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4B9DD9C3644538B70107BC3506CD1E8C /* KMCGeigerCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 075F8FCD756B2BECCA9D2A8F852EC255 /* KMCGeigerCounter.m */; };
+		B8E02BDCB814FD15D0CC8AF68D9CAC30 /* KMCGeigerCounter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A96323F3A2025659D479884A090E73 /* KMCGeigerCounter-dummy.m */; };
+		F2236E8D50D9A8508C683C2229ABF94D /* Pods-TableViewPerformance-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEE4BBB41AFE4B15548955E57F7A74C /* Pods-TableViewPerformance-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CA6E1E461E5E538B900BD4FE57695D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAABDA2557B41F7D5EE4AA9654DC26EC;
+			remoteInfo = KMCGeigerCounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		075F8FCD756B2BECCA9D2A8F852EC255 /* KMCGeigerCounter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KMCGeigerCounter.m; path = KMCGeigerCounter/KMCGeigerCounter.m; sourceTree = "<group>"; };
+		348AB5B8F160F79D857720A5997F9E51 /* KMCGeigerCounterTick.aiff */ = {isa = PBXFileReference; includeInIndex = 1; name = KMCGeigerCounterTick.aiff; path = KMCGeigerCounter/KMCGeigerCounterTick.aiff; sourceTree = "<group>"; };
+		35D22D21DC0BABEF70A6A7491104C2B8 /* KMCGeigerCounter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KMCGeigerCounter.xcconfig; sourceTree = "<group>"; };
+		39DCF54EFABB302FE3699A7121ED97AB /* KMCGeigerCounter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KMCGeigerCounter.h; path = KMCGeigerCounter/KMCGeigerCounter.h; sourceTree = "<group>"; };
+		56E0A6E2C817B530244AABB1164AB383 /* libKMCGeigerCounter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKMCGeigerCounter.a; path = libKMCGeigerCounter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		78A96323F3A2025659D479884A090E73 /* KMCGeigerCounter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KMCGeigerCounter-dummy.m"; sourceTree = "<group>"; };
+		832F943658E4D281D507544E3D1ECA4E /* Pods-TableViewPerformance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TableViewPerformance.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		970407107506E6C8EC6C4965C3FF0778 /* Pods-TableViewPerformance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TableViewPerformance.release.xcconfig"; sourceTree = "<group>"; };
+		A6F8F277CFD163F020C97B3A934D14BE /* KMCGeigerCounter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KMCGeigerCounter-prefix.pch"; sourceTree = "<group>"; };
+		C103B3BE879D0C4D9260F7B99735704D /* libPods-TableViewPerformance.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TableViewPerformance.a"; path = "libPods-TableViewPerformance.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0FE01C64ED61B13CDF584E00E0AF2C /* Pods-TableViewPerformance-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TableViewPerformance-acknowledgements.plist"; sourceTree = "<group>"; };
+		D184E105D177066D30548FF2E0072CF4 /* Pods-TableViewPerformance-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TableViewPerformance-resources.sh"; sourceTree = "<group>"; };
+		D23194A57E518A4C29D0B8A2CC886803 /* Pods-TableViewPerformance-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TableViewPerformance-frameworks.sh"; sourceTree = "<group>"; };
+		E2419408961B8E083C086685ECC0F1B8 /* Pods-TableViewPerformance-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TableViewPerformance-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EEEE4BBB41AFE4B15548955E57F7A74C /* Pods-TableViewPerformance-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TableViewPerformance-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35B3BA1E562951187BA215888AF02FCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DED70C72EB9801DF2EB6517125C48B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		081D278A2A2FE02A219ADA39A53B4434 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C2AF19086B55962927AF0802CF1B730 /* KMCGeigerCounter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C2AF19086B55962927AF0802CF1B730 /* KMCGeigerCounter */ = {
+			isa = PBXGroup;
+			children = (
+				39DCF54EFABB302FE3699A7121ED97AB /* KMCGeigerCounter.h */,
+				075F8FCD756B2BECCA9D2A8F852EC255 /* KMCGeigerCounter.m */,
+				5D98F25A998A1F6CF05C72E116EA8584 /* Resources */,
+				7BB741850104F33A0CA94C943A1D06E5 /* Support Files */,
+			);
+			name = KMCGeigerCounter;
+			path = KMCGeigerCounter;
+			sourceTree = "<group>";
+		};
+		2B20F9CBDD71E9FA0594ADFECA2E0B7F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63F8A0F5AF58C8DD1BA8CD78D0B0C371 /* Pods-TableViewPerformance */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5D98F25A998A1F6CF05C72E116EA8584 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				348AB5B8F160F79D857720A5997F9E51 /* KMCGeigerCounterTick.aiff */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		63F8A0F5AF58C8DD1BA8CD78D0B0C371 /* Pods-TableViewPerformance */ = {
+			isa = PBXGroup;
+			children = (
+				E2419408961B8E083C086685ECC0F1B8 /* Pods-TableViewPerformance-acknowledgements.markdown */,
+				CA0FE01C64ED61B13CDF584E00E0AF2C /* Pods-TableViewPerformance-acknowledgements.plist */,
+				EEEE4BBB41AFE4B15548955E57F7A74C /* Pods-TableViewPerformance-dummy.m */,
+				D23194A57E518A4C29D0B8A2CC886803 /* Pods-TableViewPerformance-frameworks.sh */,
+				D184E105D177066D30548FF2E0072CF4 /* Pods-TableViewPerformance-resources.sh */,
+				832F943658E4D281D507544E3D1ECA4E /* Pods-TableViewPerformance.debug.xcconfig */,
+				970407107506E6C8EC6C4965C3FF0778 /* Pods-TableViewPerformance.release.xcconfig */,
+			);
+			name = "Pods-TableViewPerformance";
+			path = "Target Support Files/Pods-TableViewPerformance";
+			sourceTree = "<group>";
+		};
+		7BB741850104F33A0CA94C943A1D06E5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35D22D21DC0BABEF70A6A7491104C2B8 /* KMCGeigerCounter.xcconfig */,
+				78A96323F3A2025659D479884A090E73 /* KMCGeigerCounter-dummy.m */,
+				A6F8F277CFD163F020C97B3A934D14BE /* KMCGeigerCounter-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KMCGeigerCounter";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				081D278A2A2FE02A219ADA39A53B4434 /* Pods */,
+				F8B4979B6592C2EDBD5A52A32D36542D /* Products */,
+				2B20F9CBDD71E9FA0594ADFECA2E0B7F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F8B4979B6592C2EDBD5A52A32D36542D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56E0A6E2C817B530244AABB1164AB383 /* libKMCGeigerCounter.a */,
+				C103B3BE879D0C4D9260F7B99735704D /* libPods-TableViewPerformance.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DA099AACBE8D28CA41C1C9A67D4FFF46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1407B8A74B78617C982D614286DEFE3C /* KMCGeigerCounter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5288A91B2EB946537202587E3C6FDFD7 /* Pods-TableViewPerformance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45F07C2E6E79EC40249524F45BC7CF7 /* Build configuration list for PBXNativeTarget "Pods-TableViewPerformance" */;
+			buildPhases = (
+				91DA9D214AED496767441E9BC73ED8BC /* Sources */,
+				35B3BA1E562951187BA215888AF02FCD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C16FCD6A21DB1A518ECF4D167690A5D /* PBXTargetDependency */,
+			);
+			name = "Pods-TableViewPerformance";
+			productName = "Pods-TableViewPerformance";
+			productReference = C103B3BE879D0C4D9260F7B99735704D /* libPods-TableViewPerformance.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DAABDA2557B41F7D5EE4AA9654DC26EC /* KMCGeigerCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95369FD72744E3680F28823BF4D2A291 /* Build configuration list for PBXNativeTarget "KMCGeigerCounter" */;
+			buildPhases = (
+				EC23090934D0318F1D043C0B91C16B5B /* Sources */,
+				7DED70C72EB9801DF2EB6517125C48B5 /* Frameworks */,
+				DA099AACBE8D28CA41C1C9A67D4FFF46 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMCGeigerCounter;
+			productName = KMCGeigerCounter;
+			productReference = 56E0A6E2C817B530244AABB1164AB383 /* libKMCGeigerCounter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F8B4979B6592C2EDBD5A52A32D36542D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAABDA2557B41F7D5EE4AA9654DC26EC /* KMCGeigerCounter */,
+				5288A91B2EB946537202587E3C6FDFD7 /* Pods-TableViewPerformance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91DA9D214AED496767441E9BC73ED8BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2236E8D50D9A8508C683C2229ABF94D /* Pods-TableViewPerformance-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC23090934D0318F1D043C0B91C16B5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E02BDCB814FD15D0CC8AF68D9CAC30 /* KMCGeigerCounter-dummy.m in Sources */,
+				4B9DD9C3644538B70107BC3506CD1E8C /* KMCGeigerCounter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C16FCD6A21DB1A518ECF4D167690A5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KMCGeigerCounter;
+			target = DAABDA2557B41F7D5EE4AA9654DC26EC /* KMCGeigerCounter */;
+			targetProxy = 3CA6E1E461E5E538B900BD4FE57695D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		063198AB09B9CDB3A695432FC17AD8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		45B4BECA5963ECD5695060370F3FBC97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 832F943658E4D281D507544E3D1ECA4E /* Pods-TableViewPerformance.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53ED6D50D35E22C5A2D605E95A69A5F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35D22D21DC0BABEF70A6A7491104C2B8 /* KMCGeigerCounter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KMCGeigerCounter/KMCGeigerCounter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = KMCGeigerCounter;
+				PRODUCT_NAME = KMCGeigerCounter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C2F07D397F0E742DC96FCF446EAD2F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35D22D21DC0BABEF70A6A7491104C2B8 /* KMCGeigerCounter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KMCGeigerCounter/KMCGeigerCounter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = KMCGeigerCounter;
+				PRODUCT_NAME = KMCGeigerCounter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87EAC867385563488A6D8F1E74AC46B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8BC3B0340A6E1149F464460FAA830996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 970407107506E6C8EC6C4965C3FF0778 /* Pods-TableViewPerformance.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87EAC867385563488A6D8F1E74AC46B4 /* Debug */,
+				063198AB09B9CDB3A695432FC17AD8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95369FD72744E3680F28823BF4D2A291 /* Build configuration list for PBXNativeTarget "KMCGeigerCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53ED6D50D35E22C5A2D605E95A69A5F2 /* Debug */,
+				6C2F07D397F0E742DC96FCF446EAD2F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E45F07C2E6E79EC40249524F45BC7CF7 /* Build configuration list for PBXNativeTarget "Pods-TableViewPerformance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45B4BECA5963ECD5695060370F3FBC97 /* Debug */,
+				8BC3B0340A6E1149F464460FAA830996 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
