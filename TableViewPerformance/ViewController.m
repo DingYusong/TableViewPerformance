@@ -35,14 +35,7 @@
                                  @"title":@"tableViewcell不复用",
                                  @"page":@"DYSDemo03ViewController"
                                  },
-                             @{
-                                 @"title":@"DYSBlockViewController",
-                                 @"page":@"DYSBlockViewController"
-                                 },
-                             @{
-                                 @"title":@"DYSNSTimerViewController",
-                                 @"page":@"DYSNSTimerViewController"
-                                 }];
+                             ];
     
     self.tableView.rowHeight = 50;
     // Do any additional setup after loading the view, typically from a nib.
